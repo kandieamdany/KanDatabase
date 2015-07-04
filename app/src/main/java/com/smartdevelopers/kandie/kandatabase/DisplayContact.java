@@ -151,7 +151,7 @@ public class DisplayContact extends AppCompatActivity {
                             }
                         });
                 AlertDialog d = builder.create();
-                d.setTitle("Are you sure");
+                d.setTitle("Want to Delete?");
                 d.show();
 
                 return true;

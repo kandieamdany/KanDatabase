@@ -17,6 +17,18 @@
             </intent-filter>
         </activity>
         <activity android:name=".DisplayContact"/>
+        <activity android:name=".AllContacts"/>
+        <activity android:name=".ActivitySharedPref"/>
+        <activity android:name=".DisplayUserSettings"/>
+        <activity android:name=".UserSettingActivity"/>
+        <activity android:name=".UserBroadcast"/>
+
+        <receiver android:name="MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="com.smartdevelopers.kandie.kandatabase.A_CUSTOM_INTENT">
+                </action>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>

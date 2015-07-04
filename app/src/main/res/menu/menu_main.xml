@@ -10,4 +10,23 @@
         android:icon="@drawable/ic_add"
         android:title="@string/View_All" >
     </item>
+    <item android:id="@+id/item3"
+        android:icon="@drawable/ic_add"
+        android:title="@string/pref" >
+    </item>
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:title="@string/user_settings"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+    <item
+        android:id="@+id/display_user_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        android:icon="@android:drawable/ic_menu_preferences"/>
+    <item
+        android:id="@+id/user_broadcast"
+        android:orderInCategory="100"
+        android:title="@string/myBroadcastIntent"
+        android:icon="@android:drawable/ic_menu_preferences"/>
 </menu>
